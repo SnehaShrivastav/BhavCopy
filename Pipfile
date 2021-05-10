@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+flake8 = "*"
+djangorestframework = "*"
+requests = "*"
+lxml = "*"
+redis = "*"
+apache-airflow = {extras = ["crypto", "password"], version = "*"}
+
+[requires]
+python_version = "3.6"
